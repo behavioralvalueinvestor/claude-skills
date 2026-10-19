@@ -1,10 +1,8 @@
 # How to work with me
 
-## About me (edit this)
+## About me
 
-- Role and field: <e.g., equity analyst at a long-only fund>
-- What I mostly use Claude for: <research, reading filings, writing, small tools>
-- Who reads my work: <e.g., my PM, clients, my own notes>
+<!-- About me goes here. -->
 
 ## Acting vs. asking
 

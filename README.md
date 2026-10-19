@@ -25,7 +25,7 @@ The `starter/` folder holds two files that set how Claude works with you. `CLAUD
 
 Paste this sentence into Claude Code once:
 
-> Set up the starter files from https://github.com/behavioralvalueinvestor/claude-skills. Download a fresh copy of the repo into a new temporary folder. For CLAUDE.md: if `~/.claude/CLAUDE.md` does not exist, copy `starter/CLAUDE.md` there, then ask me the "About me" questions one at a time and fill in my answers; if it already exists, show me how it differs from the starter and ask me before changing anything. For settings.json: add every rule from `starter/settings.json` to `~/.claude/settings.json`, creating the file if needed, keeping everything already in my file and skipping rules I already have. Then show me both final files.
+> Set up the starter files from https://github.com/behavioralvalueinvestor/claude-skills. Download a fresh copy of the repo into a new temporary folder. For CLAUDE.md: if `~/.claude/CLAUDE.md` does not exist, copy `starter/CLAUDE.md` there; if it already exists, show me how it differs from the starter and ask me before changing anything. For settings.json: add every rule from `starter/settings.json` to `~/.claude/settings.json`, creating the file if needed, keeping everything already in my file and skipping rules I already have. Then show me both final files.
 
 Claude will ask your permission before it changes its own settings file. Say yes, then quit and restart Claude Code or the desktop app. Don't re-run this sentence to update your skills; the install sentence above does that and leaves these two files alone.
 
