@@ -18,6 +18,7 @@ Long interviews fill up context. If you hold answers only in your head, you will
    - **New** (or the folder is empty / nothing matches): continue to step 2.
 2. **Create the capture file** at `brainstorms/{YYYY-MM-DD}-{topic-slug}.md`, relative to the current working directory (create the `brainstorms/` folder if it doesn't exist). The slug is the topic lowercased and kebab-cased, ~3–5 words (e.g. `pricing-model-for-pulse`). Each project keeps its own `brainstorms/` folder next to the work it is about, so captures stay with that work. If a session later produces a polished deliverable (a plan, an artifact), that deliverable can move into the relevant `projects/` folder, but the raw capture always stays in `brainstorms/`.
    - Get today's date with `Get-Date -Format 'yyyy-MM-dd'` (PowerShell), or `date +%F` (Bash), if you don't already know it.
+   - If a file with that name already exists, add `-2`, `-3`, and so on before `.md` until the name is unused. Starting a new session never overwrites an existing capture.
 3. **Create the file immediately** using the header in the Capture file format section below.
 4. **Tell the user where you're saving** (or which file you're resuming), in one line. Then ask the next question.
 
