@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "deny": [
+      "Read(//**/.env)",
+      "Read(//**/.env.*)",
+      "Read(//**/.ssh/**)",
+      "Read(//**/.aws/**)",
+      "Read(//**/*.pem)",
+      "Read(//**/.netrc)",
+      "Read(//**/.git-credentials)",
+      "Read(//**/*credentials.json)",
+      "Bash(env)",
+      "Bash(printenv *)",
+      "PowerShell(Get-ChildItem Env:)"
+    ],
+    "ask": [
+      "Bash(sudo *)",
+      "Bash(rm *)",
+      "PowerShell(Remove-Item *)",
+      "Bash(git push *)",
+      "PowerShell(git push *)",
+      "Bash(gh *)",
+      "PowerShell(gh *)"
+    ],
+    "disableBypassPermissionsMode": "disable"
+  }
+}
