@@ -22,3 +22,5 @@ Use /handoff and /pickup as a pair. When a session runs long and Claude starts l
 ## Credit
 
 /grill-me, /handoff and /pickup are modified versions of Matt Pocock's skills (https://github.com/mattpocock/skills), used under the MIT license. His license notice is in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md). /intent is mine.
+
+Everything here is free to use under the MIT license. See [LICENSE](LICENSE).
